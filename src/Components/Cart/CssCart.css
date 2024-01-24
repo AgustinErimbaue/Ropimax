@@ -1,0 +1,16 @@
+/* Estilo para la imagen del carrito */
+img {
+    width: 25px; /* Ajusta este valor según tus necesidades */
+    height: 25px; /* Ajusta este valor según tus necesidades */
+}
+
+p {
+    position: absolute; /* Posiciona el número de forma absoluta dentro del contenedor */
+    top: 5px; /* Ajusta según tus necesidades para posicionar verticalmente */
+    right: 07px; /* Ajusta según tus necesidades para posicionar horizontalmente */
+    background-color: red; /* Color de fondo del número */
+    color: white; /* Color del texto del número */
+    border-radius: 50%; /* Para darle forma de círculo al número */
+    padding: 3px; /* Espaciado interno del número, reducido para hacer el círculo más pequeño */
+    font-size: 12px; /* Tamaño de la fuente reducido */
+}
