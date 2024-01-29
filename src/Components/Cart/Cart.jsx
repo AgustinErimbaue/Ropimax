@@ -5,12 +5,18 @@ const Cart = () => {
     const cantidadEnCarrito = 1
     return (
         <div>
-            <a href="#">
-                <img src={carritoDeCompras} alt="" />
-            </a>
+
+            <div>
+                <a href="#">
+                    <img src={carritoDeCompras} alt="" />
+                </a>
+            </div>
+
+            <div className='cantidad-carrito'>
                 <p>
                     {cantidadEnCarrito}
                 </p>
+            </div>
 
 
         </div>
